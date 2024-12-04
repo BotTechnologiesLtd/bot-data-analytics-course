@@ -1,12 +1,130 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
+    background-color: #1d1f27;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    color: #333;
-}
+
 a {
-    color: #0066cc;
     text-decoration: none;
+}
+
+/* Header */
+.navbar {
+    background-color: #14161a;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar h1 {
+    color: orange;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #1d1f27;
+}
+
+.hero h2 {
+    color: orange;
+    font-size: 2.5rem;
+}
+
+.hero .btn-primary {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Projects Section */
+.projects {
+    padding: 2rem;
+    background-color: #282c34;
+    text-align: center;
+}
+
+.projects h3 {
+    color: orange;
+    margin-bottom: 1rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    padding: 1rem;
+    background-color: #1d1f27;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.project-card h4 {
+    color: orange;
+}
+
+.btn-secondary, .btn-disabled {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: green;
+}
+
+.btn-disabled {
+    background-color: gray;
+}
+
+/* Instructor Section */
+.instructor {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1d1f27;
+}
+
+.instructor img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 2rem;
+    background-color: #282c34;
+    text-align: center;
+}
+
+.newsletter form {
+    margin-top: 1rem;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #14161a;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
 }
